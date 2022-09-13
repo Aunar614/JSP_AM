@@ -30,7 +30,7 @@ public class HomeMainServlet3 extends HttpServlet {
 		String inputedColor = request.getParameter("color");
 
 		if (inputedColor == null) {
-			inputedColor = "black";
+			inputedColor = "";
 		}
 
 		int dan = Integer.parseInt(inputedDan);
